@@ -1,12 +1,6 @@
-#include <factor.h>
 #include <stdio.h>
-/**
- * factorize - The function factorize a number
- * @buffer: pointer to the address of the number
- *
- */
 
-int main()
+int main(void)
 {
     long long int num = 239809320265259;
     long int factor1 = 2;
@@ -18,7 +12,8 @@ int main()
         {
             factor1++;
         }
-        else {
+        else
+        {
             return (-1);
         }
     }
